@@ -103,6 +103,7 @@ var bool = ( arr[ 0 ] === out[ 0 ] );
 	```
 
 
+---
 ## Examples
 
 ``` javascript
