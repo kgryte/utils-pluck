@@ -23,7 +23,7 @@
   "main": "./lib",
   "repository": {
     "type": "git",
-    "url": "git://github.com/kgryte/utils-copy.git"
+    "url": "git://github.com/kgryte/utils-pluck.git"
   },
   "keywords": [
     "utilities",
@@ -40,7 +40,7 @@
     "list"
   ],
   "bugs": {
-    "url": "https://github.com/kgryte/utils-copy/issues"
+    "url": "https://github.com/kgryte/utils-pluck/issues"
   },
   "dependencies": {
     "utils-copy": "^1.1.0",
