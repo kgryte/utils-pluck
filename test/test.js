@@ -171,3 +171,22 @@ tape( 'the function supports non-string property values', function test( t ) {
 	t.deepEqual( actual, expected, 'deep equal' );
 	t.end();
 });
+
+tape( 'the function does not deep copy plucked values', function test( t ) {
+	var expected;
+	var actual;
+	var arr;
+
+	arr = [
+		{'a':{'b':2}},
+		{'a':{'b':3}}
+	];
+	expected = [ {'b':2}, {'b':3} ];
+
+	actual = pluck( arr, 'a' );
+
+	t.deepEqual( actual, expected, 'deep equal' );
+	t.equal( actual[0], arr[0].a, 'plucked values are not deep copied' );
+
+	t.end();
+});
