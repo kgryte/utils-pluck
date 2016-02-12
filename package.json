@@ -36,7 +36,8 @@
     "values",
     "object",
     "array",
-    "map"
+    "map",
+    "list"
   ],
   "bugs": {
     "url": "https://github.com/kgryte/utils-copy/issues"
