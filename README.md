@@ -214,3 +214,5 @@ Copyright &copy; 2016. Athan Reines.
 [tape]: https://github.com/substack/tape
 [istanbul]: https://github.com/gotwarlost/istanbul
 [testling]: https://ci.testling.com
+
+[utils-copy]: https://github.com/kgryte/utils-copy
