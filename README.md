@@ -78,7 +78,7 @@ var bool = ( arr[ 0 ] === out[ 0 ] );
 	var out = pluck( arr, 'a' );
 	// returns [ {'b':2}, {'b':3} ]
 
-	var bool = ( arr[ 0 ].a === out[ 1 ] );
+	var bool = ( arr[ 0 ].a === out[ 0 ] );
 	// returns true
 	``` 
 
@@ -98,7 +98,7 @@ var bool = ( arr[ 0 ] === out[ 0 ] );
 	// Perform a deep copy:
 	out = copy( out );
 
-	var bool = ( arr[ 0 ].a === out[ 1 ] );
+	var bool = ( arr[ 0 ].a === out[ 0 ] );
 	// returns false
 	```
 
